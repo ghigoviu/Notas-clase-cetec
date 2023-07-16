@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Este es un formulario</h1>
+    </header>
+    <main>
+        <form class="form" action="./guardar.php" method='POST'>
+           <label class="form-label ">Nombre</label>
+           <input type="text"name="nombre"/><br>
+           <label>Edad</label>
+           <input type="text"name="edad"/><br>
+           <label>Carrera</label>
+           <input type="text"name="carrera"/><br>
+           <label>Equipo_computo</label>
+           <input type="text"name="equipo_computo"/><br>
+           <label>Promedio</label>
+           <input type="text"name="promedio"></br>
+           <input class="btn btn-dark" type="submit"/> 
+        </form>
+        <a href="./consultar.php">
+            <button class="btn btn-dark">ver registros</button>
+        </a>
+    </main>
+    <footer></footer>
+</body>
+</html>
